@@ -31,14 +31,6 @@ class Bot_ack:
             pass
 
 
-    def install_module(self):
-        quest = input("Want to install fake_useragent module [Y/N] ?:  ")
-        if quest.upper().strip() == 'Y':
-            os.system("python3 -m pip install fake_useragent")
-        else:
-            pass
-
-
     def requesting(self):
 
 
@@ -89,6 +81,5 @@ port = input("Choose specific port or it will be default: ").strip()
 if __name__ == '__main__':
     bot_1 = Bot_ack(the_page, port, UA)
     bot_1.ip_return()
-    bot_1.install_module()
     bot_1.s = s
     bot_1.worker()
