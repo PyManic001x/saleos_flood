@@ -8,6 +8,8 @@ It uses fake_useragent module for changing headers of requests.
 
 install it by
   python3 -m pip install fake_useragent
+or
+  pip3 install fake_useragent
 
 by PyManic
 
