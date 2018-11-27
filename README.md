@@ -6,7 +6,7 @@ _____________________________
 
 Uses python3 and runs while loops inside different threads sending requests using requests module. 
 You select the amount of threads. 
-It uses fake_useragent module for changing headers of requests.
+It uses fake_useragent module for changing headers of each request.
 
 INSTALL
 
