@@ -1,6 +1,8 @@
 # saleos_flood
-simple dos python3 
+simple dos python 3 script
+_____________________________
 For educational purpose only
+_____________________________
 
 Uses python3 and runs while loops inside different threads sending requests using requests module. 
 You select the amount of threads. 
