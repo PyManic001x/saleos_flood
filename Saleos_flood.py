@@ -45,6 +45,7 @@ class Bot_ack:
     def worker(self):
         num_workers = input("Enter amount of workers: ").strip()
         threadcount = 0
+        print("[+]Process started...")
         for i in range(0, int(num_workers)):
             Thread(target=self.requesting).start()
             threadcount += 1
